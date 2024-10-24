@@ -1,0 +1,8 @@
+﻿  AirgeadBanking.cpp
+U:\AIRGREADBANKINGCOPY\AirgeadBanking\AirgeadBanking\AirgeadBanking.cpp(43,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+U:\AIRGREADBANKINGCOPY\AirgeadBanking\AirgeadBanking\AirgeadBanking.cpp(46,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  display.cpp
+  reportAdditionalDep.cpp
+  reportNoAdditionalDep.cpp
+  Generating Code...
+  AirgeadBanking.vcxproj -> U:\AIRGREADBANKINGCOPY\AirgeadBanking\AirgeadBanking\Debug\AirgeadBankingMain.exe
