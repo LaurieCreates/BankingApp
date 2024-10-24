@@ -1,4 +1,4 @@
-# BankingApp
+# **BankingApp**
 This app allows users to:
  1) Enter an initial investment amount
  2) Enter a monthly deposit amount
@@ -10,22 +10,30 @@ The simple display will show the user's year end balance as well as display the 
 
 This project was made in Visual Studio.
 
-Main Component:
+**Main Component**:
 Running "AirgeadBanking.cpp" will execute the main function.
 
-Additional Information: 
+**Additional Information**: 
 
 This is a simple program which can be expanded upon.
 
 There are three main files containing the variables & methods used. For each file there also exists a header file with the same name (the only diffenece is the file type .h).
 
-1) "display.h" - This file is for the display
-2) "reportAdditionalDep.h" - This file contains logic for calculating and displaying recurring monthly deposits
-3) "reportNoAddtionalDep.h" - - This contains logic for calculating and displaying when a user chooses not to add a recurring monthly deposits but invests and intitial deposit only.
+1) "display.cpp" - This file is for the display
+2) "reportAdditionalDep.cpp" - This file contains logic for calculating and displaying recurring monthly deposits
+3) "reportNoAddtionalDep.cpp" - - This contains logic for calculating and displaying when a user chooses not to add a recurring monthly deposits but invests and intitial deposit only.
 
-Areas to Improve:
+**Recent Improvements**:
+1) 10/24/24 - Updated display format to use setw instead of hard coded spacing.
+
+**Areas to Improve**:
 
 1) Adding documentation for methods
 2) Expanding the program
 3) Validate user input
 4) No Unit tests currently
+
+**Challenges**:
+1) I found it difficult to code how to calculate the interest. I first had to do it out by hand on paper and check that it made sense. Once I got the numbers working, I wrote the pseudo code for it and then coded and checked as I went looking for a few edge cases.
+2) I also found the formatting difficult. I would have liked to make a table instead, but went with what I knew how to do first to make it work.
+3) I was not used to the naming conventions of using variable and member naming such as "m_balance" or "t_balance" so I had to pay careful attention to detail there.
